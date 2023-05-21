@@ -1,0 +1,60 @@
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: transparent;
+   
+  
+}
+
+.prev {
+    background-color:transparent;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.next2 {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.p {
+    color: black;
+    border: none;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.input2 {
+    width: 1.5em;
+    text-align: center;
+    background-color:transparent;
+    color: black;
+    font-size: 1.5em;
+}
+
+.prev[disabled] {
+    background-color: gray;
+    cursor: no-drop;
+}
+
+.next[disabled] {
+    background-color: gray;
+    cursor: no-drop;
+}

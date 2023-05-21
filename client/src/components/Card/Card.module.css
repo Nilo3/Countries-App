@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+
+.card {
+    width: 20em;
+    height: 22em;
+  
+    transition: 1s ease-in-out;
+    border-radius: 5%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 3em;
+  }
+  
+  .card .info {
+    font-weight: 600;
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: px
+
+  }
+  
+  .card .img {
+    margin-top: 5%;
+    width: 10em;
+    height: 7em;
+    background: white;
+    border-radius: 1px;
+
+    display: flex;
+    align-self:center;
+    border: 3px solid black;
+  }
+
+  .p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 0.2em;
+    text-align: center;
+  }
+
+  .btt2 {
+      
+
+      background-color: #008996;
+      border-radius: 10px;
+      padding: 0.5em 1em 0.5em 1em;
+      font-size: 15px;
+      margin: 10%;
+      color: #fff;
+    
+      cursor: pointer;
+      margin-left: 33%;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+     }
+     
+     .btt2 span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-weight: 600;
+     }
+     
+     .btt2:hover {
+      background-color: #008996;
+     }
+  
